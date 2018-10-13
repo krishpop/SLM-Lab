@@ -56,7 +56,7 @@
       }
     }],
     "env": [{
-      "name": "BeamRiderDeterministic-v4",
+      "name": "Breakout-v0",
       "max_timestep": null,
       "max_episode": 20000,
       "save_epi_frequency": 100
@@ -134,7 +134,7 @@
       }
     }],
     "env": [{
-      "name": "BeamRiderDeterministic-v4",
+      "name": "Breakout-v0",
       "max_timestep": null,
       "max_episode": 20000,
       "save_epi_frequency": 100
@@ -210,7 +210,7 @@
       }
     }],
     "env": [{
-      "name": "BeamRiderDeterministic-v4",
+      "name": "Breakout-v0",
       "max_timestep": null,
       "max_episode": 20000,
       "save_epi_frequency": 100
@@ -290,7 +290,7 @@
       }
     }],
     "env": [{
-      "name": "BeamRiderDeterministic-v4",
+      "name": "Breakout-v0",
       "max_timestep": null,
       "max_episode": 20000,
       "save_epi_frequency": 100
