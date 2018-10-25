@@ -353,7 +353,7 @@
       }]
     }
   },
-  "ppo_mlp_shared_cartpole": {
+  "ppo_mlp_shared_mountain_car": {
     "agent": [{
       "name": "PPO",
       "algorithm": {
