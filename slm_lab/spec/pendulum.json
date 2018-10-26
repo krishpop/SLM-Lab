@@ -75,6 +75,7 @@
           "training_frequency__choice": [2, 4, 8],
           "training_epoch__choice": [2, 4, 8],
           "entropy_coef__choice": [0.01, 0.1],
+          "val_loss_coef__choice": [0.005, 0.01, 0.05, 0.1, 0.5],
           "lam__uniform": [0.95, 0.99]
         },
         "net": {
@@ -165,6 +166,7 @@
           "training_frequency__choice": [2, 4, 8],
           "training_epoch__choice": [2, 4, 8],
           "entropy_coef__choice": [0.01, 0.1],
+          "val_loss_coef__choice": [0.005, 0.01, 0.05, 0.1, 0.5],
           "lam__uniform": [0.95, 0.99],
         },
         "net": {
@@ -254,6 +256,7 @@
           "training_frequency__choice": [2, 4, 8],
           "training_epoch__choice": [2, 4, 8],
           "entropy_coef__choice": [0.01, 0.1],
+          "val_loss_coef__choice": [0.005, 0.01, 0.05, 0.1, 0.5],
           "num_step_returns__choice": [2, 4, 8]
         },
         "net": {
@@ -344,6 +347,7 @@
           "training_frequency__choice": [2, 4, 8],
           "training_epoch__choice": [2, 4, 8],
           "entropy_coef__choice": [0.01, 0.1],
+          "val_loss_coef__choice": [0.005, 0.01, 0.05, 0.1, 0.5],
           "lam__uniform": [0.9, 0.99],
         },
         "net": {
@@ -429,6 +433,7 @@
           "training_frequency__choice": [2, 4, 8],
           "training_epoch__choice": [2, 4, 8],
           "entropy_coef__choice": [0.01, 0.1],
+          "val_loss_coef__choice": [0.005, 0.01, 0.05, 0.1, 0.5],
           "lam__uniform": [0.95, 0.99]
         },
         "net": {
@@ -515,6 +520,7 @@
           "training_frequency__choice": [2, 4, 8],
           "training_epoch__choice": [2, 4, 8],
           "entropy_coef__choice": [0.01, 0.1],
+          "val_loss_coef__choice": [0.005, 0.01, 0.05, 0.1, 0.5],
           "lam__uniform": [0.95, 0.99]
         },
         "net": {
@@ -609,6 +615,7 @@
         "algorithm": {
           "normalize_state__choice": [true, false],
           "entropy_coef__choice": [0.01, 0.1],
+          "val_loss_coef__choice": [0.005, 0.01, 0.05, 0.1, 0.5],
           "val_loss_coef__uniform": [0.01, 1.0],
           "sil_policy_loss_coef__choice": [0.001, 0.01, 1.0],
           "sil_val_loss_coef__choice": [0.001, 0.01],
@@ -704,6 +711,7 @@
         "algorithm": {
           "clip_eps__uniform": [0.1, 1.0],
           "entropy_coef__choice": [0.01, 0.1],
+          "val_loss_coef__choice": [0.005, 0.01, 0.05, 0.1, 0.5],
           "val_loss_coef__uniform": [0.01, 1.0],
           "sil_policy_loss_coef__uniform": [0.01, 1.0],
           "sil_val_loss_coef__uniform": [0.01, 1.0]
