@@ -71,6 +71,14 @@ def check_body_spec(spec):
         assert ps.is_list(body_num)
 
 
+def check_resource_spec(spec):
+    meta_spec = spec['meta']
+    num_cpus = ps.get(meta_spec, 'resources.num_cpus')
+    # limit to the actualy number of CPUs available for safety
+    if num_cpus is not None and num_cpus > util.NUM_CPUS:
+        meta_spec['resources']['num_cpus'] = util.NUM_CPUS
+
+
 def check(spec):
     '''Check a single spec for validity'''
     try:
@@ -83,6 +91,7 @@ def check(spec):
         check_comp_spec(spec['body'], SPEC_FORMAT['body'])
         check_comp_spec(spec['meta'], SPEC_FORMAT['meta'])
         check_body_spec(spec)
+        check_resource_spec(spec)
     except Exception as e:
         logger.exception(f'spec {spec_name} fails spec check')
         raise e
