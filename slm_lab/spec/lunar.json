@@ -55,7 +55,7 @@
       "max_trial": 200,
       "search": "RandomSearch",
       "resources": {
-        "num_cpus": 95,
+        "num_cpus": 92,
       }
     },
     "search": {
@@ -140,7 +140,7 @@
       "max_trial": 200,
       "search": "RandomSearch",
       "resources": {
-        "num_cpus": 95,
+        "num_cpus": 92,
       }
     },
     "search": {
@@ -866,7 +866,7 @@
       "max_trial": 200,
       "search": "RandomSearch",
       "resources": {
-        "num_cpus": 95,
+        "num_cpus": 92,
       }
     },
     "search": {
@@ -1223,7 +1223,7 @@
       "max_trial": 200,
       "search": "RandomSearch",
       "resources": {
-        "num_cpus": 95,
+        "num_cpus": 92,
       }
     },
     "search": {
