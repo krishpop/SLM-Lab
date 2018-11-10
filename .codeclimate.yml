@@ -30,7 +30,7 @@ checks:
       threshold: 10
   file-lines:
     config:
-      threshold: 500
+      threshold: 800
 exclude_patterns:
 - config/
 - node_modules/
