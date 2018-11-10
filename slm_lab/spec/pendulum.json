@@ -155,10 +155,10 @@
     "meta": {
       "distributed": false,
       "max_session": 4,
-      "max_trial": 91,
+      "max_trial": 200,
       "search": "RandomSearch",
       "resources": {
-        "num_cpus": 91,
+        "num_cpus": 92,
       }
     },
     "search": {
@@ -247,10 +247,10 @@
     "meta": {
       "distributed": false,
       "max_session": 4,
-      "max_trial": 91,
+      "max_trial": 200,
       "search": "RandomSearch",
       "resources": {
-        "num_cpus": 91,
+        "num_cpus": 92,
       }
     },
     "search": {
@@ -340,10 +340,10 @@
     "meta": {
       "distributed": false,
       "max_session": 4,
-      "max_trial": 91,
+      "max_trial": 200,
       "search": "RandomSearch",
       "resources": {
-        "num_cpus": 91,
+        "num_cpus": 92,
       }
     },
     "search": {
@@ -517,10 +517,10 @@
     "meta": {
       "distributed": false,
       "max_session": 4,
-      "max_trial": 91,
+      "max_trial": 200,
       "search": "RandomSearch",
       "resources": {
-        "num_cpus": 91,
+        "num_cpus": 92,
       }
     },
     "search": {
@@ -711,10 +711,10 @@
     "meta": {
       "distributed": false,
       "max_session": 4,
-      "max_trial": 91,
+      "max_trial": 200,
       "search": "RandomSearch",
       "resources": {
-        "num_cpus": 91,
+        "num_cpus": 92,
       }
     },
     "search": {
